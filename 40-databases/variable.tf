@@ -11,3 +11,6 @@ variable "zone_id" {
 variable "domain_name" {
   default = "stringsnbeads.shop"
 }
+variable "mysql_root_password" {
+  type = string
+}
